@@ -1,0 +1,27 @@
+{
+  "model_id": "fixture-model-001",
+  "model_version": "1.0",
+  "format": "binary-fixture",
+  "sha256": "2f5f5e2d9d58ab97c4bf2be7fa1139871dc34489da95b4795aaec83d2933da67",
+  "metadata": {
+    "classes": [
+      "person"
+    ],
+    "input_size": [
+      224,
+      224
+    ]
+  },
+  "expected_metadata": {
+    "classes": [
+      "person",
+      "vehicle",
+      "box",
+      "forklift"
+    ],
+    "input_size": [
+      256,
+      256
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "overall_status": "PASS",
+  "offline_only": true,
+  "images_readable": true,
+  "sample_ids_unique": true,
+  "manifest_hashes_valid": true,
+  "yolo_annotations_generated": true,
+  "coco_structure_valid": true,
+  "valid_inference_chain_present": true,
+  "tampered_inference_fixture_present": true,
+  "replayed_inference_fixture_present": true,
+  "provenance_chain_present": true,
+  "valid_and_broken_audit_fixtures_present": true,
+  "total_test_samples": 21
+}

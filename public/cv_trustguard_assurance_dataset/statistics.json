@@ -1,0 +1,32 @@
+{
+  "total_test_samples": 21,
+  "counts_by_category": {
+    "clean": 4,
+    "duplicate": 1,
+    "near_duplicate": 1,
+    "mislabeled": 1,
+    "corrupted": 1,
+    "outlier": 1,
+    "contamination": 1,
+    "distribution_shift": 2,
+    "ood": 2,
+    "brightness_shift": 1,
+    "blur": 1,
+    "noise": 1,
+    "resize_shift": 1,
+    "rotation": 1,
+    "occlusion": 1,
+    "trigger_like": 1
+  },
+  "classes": [
+    "person",
+    "vehicle",
+    "box",
+    "forklift"
+  ],
+  "seed": 42,
+  "image_size": [
+    256,
+    256
+  ]
+}

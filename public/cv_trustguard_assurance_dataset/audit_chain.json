@@ -1,0 +1,54 @@
+{
+  "valid": [
+    {
+      "event_id": "evt_001",
+      "event": "validation_step",
+      "status": "ok",
+      "sequence": 1,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "record_hash": "8e35d20d03afc028c21cbb1308204048bd5bcc08f57ccaa963ed3b987ec18bf7"
+    },
+    {
+      "event_id": "evt_002",
+      "event": "validation_step",
+      "status": "ok",
+      "sequence": 2,
+      "previous_hash": "8e35d20d03afc028c21cbb1308204048bd5bcc08f57ccaa963ed3b987ec18bf7",
+      "record_hash": "d4a506d87816e5e586003093cdcf3cd1eb99ea8ca7998f002842b94dc0314db2"
+    },
+    {
+      "event_id": "evt_003",
+      "event": "validation_step",
+      "status": "ok",
+      "sequence": 3,
+      "previous_hash": "d4a506d87816e5e586003093cdcf3cd1eb99ea8ca7998f002842b94dc0314db2",
+      "record_hash": "6427ee4713151a1660faa953629b91f0a5e8c877b395404c0e22cfa50f2f1154"
+    }
+  ],
+  "intentionally_broken": [
+    {
+      "event_id": "evt_001",
+      "event": "validation_step",
+      "status": "ok",
+      "sequence": 1,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "record_hash": "8e35d20d03afc028c21cbb1308204048bd5bcc08f57ccaa963ed3b987ec18bf7"
+    },
+    {
+      "event_id": "evt_002",
+      "event": "validation_step",
+      "status": "tampered",
+      "sequence": 2,
+      "previous_hash": "8e35d20d03afc028c21cbb1308204048bd5bcc08f57ccaa963ed3b987ec18bf7",
+      "record_hash": "d4a506d87816e5e586003093cdcf3cd1eb99ea8ca7998f002842b94dc0314db2"
+    },
+    {
+      "event_id": "evt_003",
+      "event": "validation_step",
+      "status": "ok",
+      "sequence": 3,
+      "previous_hash": "d4a506d87816e5e586003093cdcf3cd1eb99ea8ca7998f002842b94dc0314db2",
+      "record_hash": "6427ee4713151a1660faa953629b91f0a5e8c877b395404c0e22cfa50f2f1154"
+    }
+  ]
+}

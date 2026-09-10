@@ -1,0 +1,100 @@
+{
+  "images": [
+    {
+      "id": "clean_person",
+      "file_name": "test/clean/clean_person.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": "clean_vehicle",
+      "file_name": "test/clean/clean_vehicle.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": "clean_box",
+      "file_name": "test/clean/clean_box.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "id": "clean_forklift",
+      "file_name": "test/clean/clean_forklift.png",
+      "width": 256,
+      "height": 256
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": "clean_person",
+      "category_id": 1,
+      "bbox": [
+        65,
+        45,
+        55,
+        170
+      ],
+      "area": 9350,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": "clean_vehicle",
+      "category_id": 2,
+      "bbox": [
+        55,
+        105,
+        150,
+        70
+      ],
+      "area": 10500,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": "clean_box",
+      "category_id": 3,
+      "bbox": [
+        70,
+        75,
+        115,
+        105
+      ],
+      "area": 12075,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": "clean_forklift",
+      "category_id": 4,
+      "bbox": [
+        50,
+        65,
+        155,
+        125
+      ],
+      "area": 19375,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "person"
+    },
+    {
+      "id": 2,
+      "name": "vehicle"
+    },
+    {
+      "id": 3,
+      "name": "box"
+    },
+    {
+      "id": 4,
+      "name": "forklift"
+    }
+  ]
+}

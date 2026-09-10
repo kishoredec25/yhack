@@ -1,0 +1,12 @@
+{
+  "record_id": "inf_001",
+  "sample_id": "clean_person",
+  "model_id": "fixture-model-001",
+  "sequence": 1,
+  "fixture_output": {
+    "status": "fixture_only",
+    "note": "Not a detector prediction"
+  },
+  "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "record_hash": "f4b07e122cfeacdf05102ad588e3f2dcbdc298586dc054ef7710e0baa02e0597"
+}

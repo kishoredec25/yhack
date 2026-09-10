@@ -1,0 +1,12 @@
+{
+  "record_id": "inf_002",
+  "sample_id": "clean_vehicle",
+  "model_id": "fixture-model-001",
+  "sequence": 99,
+  "fixture_output": {
+    "status": "fixture_only",
+    "note": "Not a detector prediction"
+  },
+  "previous_hash": "f4b07e122cfeacdf05102ad588e3f2dcbdc298586dc054ef7710e0baa02e0597",
+  "record_hash": "eb367979e54fbe23de88f7894b2999635f9e16be915c0dbcac1f8a18d3ee2800"
+}

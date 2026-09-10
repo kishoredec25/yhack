@@ -1,0 +1,19 @@
+seed: 42
+mode: synthetic
+classes:
+- person
+- vehicle
+- box
+- forklift
+image_size:
+- 256
+- 256
+formats:
+- JPEG
+- PNG
+- YOLO
+- COCO
+- JSON
+- CSV
+- YAML
+offline_only: true
